@@ -3,18 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "sanjanasujeet.github.io"
   navbar:
+    title: "Sanjana Sujeet"
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Art.qmd
+
+
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 

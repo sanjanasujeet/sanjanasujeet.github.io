@@ -2,15 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "sanjanasujeet.github.io",
+    "title": "Sanjana Sujeet",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hi welcome to my entire life fit into a tiny corner of the internet! Feel free to explore my research and experience, arts and hobbies, as well as my travel and milestone trackers."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Education",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Environmental Studies B.S., concentration in Data Analysis, minor in Spatial Studies - 2022-2026"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Sanjana Sujeet",
+    "section": "About",
+    "text": "About\nMy name is Sanjana and I am an undergrad at UCSB studying Environmental Science! I am also interested in Data Science and Climate Change Science especially in the marine sphere. I am originally from Utah, love hiking, art, and classical Indian dance called Bharatanatyam."
+  },
+  {
+    "objectID": "about.html#research-experience",
+    "href": "about.html#research-experience",
+    "title": "Education",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n\n\nNational Science Foundation (NSF) logo\n\n\nFUERTE Fellowship- funded by National Science Foundation (NSF)\n\n2023 - Present; Santa Barbara, California, United States\n\n\n\n\n3 year Fellowship focusing on research and involvement in Conservation, Environmental Science, and Marine Biology\n\n\nResearch Project on Micro and Macroplastics in the Sierra Nevada Lake Environments- Field work, Synthesis, and Data Analysis using R Studio"
   }
 ]

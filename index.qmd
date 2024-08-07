@@ -1,11 +1,20 @@
 ---
-title: "sanjanasujeet.github.io"
+title: "Sanjana Sujeet"
+image: media/IMG_8183.JPG
+toc: true
+about:
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links: 
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/sanjana-sujeet/
+    - text: Email
+      href: mailto:sanjsujeet@gmail.com
 ---
 
-This is a Quarto website.
+Hi welcome to my entire life fit into a tiny corner of the internet! Feel free to explore my research and experience, arts and hobbies, as well as my travel and milestone trackers.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## About
 
-```{r}
-1 + 1
-```
+My name is Sanjana and I am an undergrad at UCSB studying Environmental Science! I am also interested in Data Science and Climate Change Science especially in the marine sphere. I am originally from Utah, love hiking, art, and classical Indian dance called Bharatanatyam.
