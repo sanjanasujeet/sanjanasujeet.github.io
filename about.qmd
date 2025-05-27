@@ -5,7 +5,6 @@ format:
     allow-html: true
 ---
 
-## About
 
 My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere and data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization and mapping and removing the barriers of high scientific literacy needed to understand dense material. 
 
