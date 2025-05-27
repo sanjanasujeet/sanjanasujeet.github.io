@@ -1,0 +1,12 @@
+---
+title: "Collapse Test"
+
+format: html
+---
+
+::: {.collapse title="Click to expand"}
+
+This should appear inside a collapsible box.
+
+:::
+

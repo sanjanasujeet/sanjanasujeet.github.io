@@ -1,0 +1,16 @@
+---
+title: "Education"
+format:
+  html:
+    allow-html: true
+---
+
+## My CV
+
+<iframe src="media/may2025CV.pdf" width="100%" height="600px" style="border: none;">
+
+This browser does not support PDFs. Please download the file:
+
+<a href="media/may2025CV.pdf">Download PDF</a>.
+
+<iframe>

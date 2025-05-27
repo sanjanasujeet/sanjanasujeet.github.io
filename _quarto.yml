@@ -8,17 +8,30 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - Art.qmd
-
-
+        icon: house
+      - href: about.qmd
+        text: About
+        icon: person
+      - href: education.qmd
+        text: Education
+        icon: book
+      - href: traveltracker.qmd
+        text: Travel
+        icon: globe
+      - href: Art.qmd
+        text: Art
+        icon: palette
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: 
+        - cosmo
+        - styles.scss 
+    toc: false
     page-layout: full
 
 editor: visual
+
+resources:
+  - media/may2025CV.pdf
 

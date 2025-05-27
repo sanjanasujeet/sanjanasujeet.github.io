@@ -1,30 +1,12 @@
 ---
-title: "Education"
+title: "About Me"
+format:
+  html:
+    allow-html: true
 ---
 
-### UC Santa Barbara
+## About
 
-Environmental Studies B.S., concentration in Data Analysis, minor in Spatial Studies - 2022-2026
+My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere and data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization and mapping and removing the barriers of high scientific literacy needed to understand dense material. 
 
-## Research Experience
-
-[![National Science Foundation (NSF) logo](https://media.licdn.com/dms/image/v2/C4D0BAQG-wcpJntMCew/company-logo_100_100/company-logo_100_100/0/1640798348289/national_science_foundation_logo?e=1730937600&v=beta&t=utQ_YSq1XA-PQs53031W8GDtVB7DHu5qPMh0zPCDAVA){alt="National Science Foundation (NSF) logo"}](https://www.linkedin.com/company/8599/)
-
-FUERTE Fellowship- funded by National Science Foundation (NSF)
-
--    2023 - Present; Santa Barbara, California, United States
-
-```{=html}
-<!-- -->
-```
--   <div>
-
-    3 year Fellowship focusing on research and involvement in Conservation, Environmental Science, and Marine Biology
-
-    </div>
-
--   <div>
-
-    Research Project on Micro and Macroplastics in the Sierra Nevada Lake Environments- Field work, Synthesis, and Data Analysis using R Studio
-
-    </div>
+I am originally from Utah and I love traveling, hiking, roadtrips, sunset plunges, thrifting, any form of art but especially oil and charcoal, and grew up learning a classical Indian dance form called Bharatanatyam. I just started scuba diving
