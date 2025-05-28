@@ -21,8 +21,6 @@ about:
       target: "_blank"
 ---
 
-
 ### Hello!
 
-Welcome to my personal website! Feel free to check out my other pages with my CV, travel tracker, and art, or contact me at sanjsujeet@gmail.com by just clicking the buttons under my picture!
-
+Welcome to my personal website! Feel free to check out my other pages with my CV, travel tracker, and art, or contact me at sanjsujeet\@gmail.com by just clicking the buttons under my picture!

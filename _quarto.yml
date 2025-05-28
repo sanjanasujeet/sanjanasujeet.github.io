@@ -18,8 +18,8 @@ website:
       - href: traveltracker.qmd
         text: Travel
         icon: globe
-      - href: Art.qmd
-        text: Art
+      - href: Projects.qmd
+        text: Projects
         icon: palette
 
 format:

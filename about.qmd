@@ -1,11 +1,1 @@
----
-title: "About Me"
-format:
-  html:
-    allow-html: true
----
 
-
-My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere and data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization and mapping and removing the barriers of high scientific literacy needed to understand dense material. 
-
-I am originally from Utah and I love traveling, hiking, roadtrips, sunset plunges, thrifting, any form of art but especially oil and charcoal, and grew up learning a classical Indian dance form called Bharatanatyam. I just started scuba diving
