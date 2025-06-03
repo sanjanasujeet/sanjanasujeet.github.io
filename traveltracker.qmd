@@ -207,7 +207,7 @@ Click on each pin to see some pictures of where I've been and a little descripti
   });
 </script>
 ```
-### 📍 All Locations by Region
+###  All Locations by Region
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;"}
 ::: {style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;"}
