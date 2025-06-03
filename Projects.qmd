@@ -1,3 +1,28 @@
 ---
-title: "Project"
+title: "Projects"
+page-layout: article
 ---
+
+::: {.blog-card}
+
+\### SNARL Microplastic Analysis
+
+I went to the Sierra Nevada's
+
+:::
+
+::: {.blog-card}
+
+\### Tide and Terra Magazine
+
+Me and Evelyn
+
+:::
+
+::: {.blog-card}
+
+\### 📊 Sustainable Architecture
+
+A literature review
+
+:::
