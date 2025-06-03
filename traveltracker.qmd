@@ -108,7 +108,7 @@ Click on each pin to see some pictures of where I've been and a little descripti
 {
   coords: [36.9147, -111.4558],
   name: "Page, AZ",
-  img: "travelpics/page1.jpg",
+  img: "travelpics/page.jpg",
   desc: "Saw Horseshoe Bend and Antelope Canyon and stayed in the cutest house in Page, AZ with Pri's family."
 },
 {
@@ -205,159 +205,133 @@ Click on each pin to see some pictures of where I've been and a little descripti
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/santabarbara.jpg" alt="Santa Barbara, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/santabarbara.jpg" alt="Santa Barbara, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Santa Barbara, CA</h4>
-  <p>The most perfect college town to ever exist, I compare every city I visit to beautiful, beachy, WALKABLE Santa Barbara.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/santaclara.jpg" alt="Santa Clara, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/santaclara.jpg" alt="Santa Clara, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Santa Clara, CA</h4>
-  <p>I was born here but we moved when I was 1 so does this even count? Went back to visit while touring UCSC and they had amazing chaat restaurant and sweet shops.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/sf.jpg" alt="San Francisco, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/sf.jpg" alt="San Francisco, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>San Francisco, CA</h4>
-  <p>2024 Spring Break was my first trip I've been on without my parents. I went with the most perfect travel buddy Bhavya and we fit in every single touristy activity in 5 days. God bless public transport.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/slo.jpg" alt="San Luis Obispo, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/slo.jpg" alt="San Luis Obispo, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>San Luis Obispo, CA</h4>
-  <p>Small but adorable downtown area, cute shops and Giuseppe's had the best pasta ever.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/ventura.jpg" alt="Ventura, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/ventura.jpg" alt="Ventura, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Ventura, CA</h4>
-  <p>I liked it a lot more than I thought I would! Thrifter's heaven omg and really cute cafes!</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/solvang.jpg" alt="Solvang, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/solvang.jpg" alt="Solvang, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Solvang, CA</h4>
-  <p>Straight out of a fairybook. Plus Ostrichland is something I never knew I needed.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/summerland.jpg" alt="Summerland, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/summerland.jpg" alt="Summerland, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Summerland, CA</h4>
-  <p>The garden pavilion behind the crystal shop is straight out of my dreams. Plus bird sanctuary, bookshop, antique stores, and old style diners? Cute day trip.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/morrobay.jpg" alt="Morro Bay, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/morrobay.jpg" alt="Morro Bay, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Morro Bay, CA</h4>
-  <p>SEA OTTERS!!! that's all.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/pismo.jpg" alt="Pismo Beach, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/pismo.jpg" alt="Pismo Beach, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Pismo Beach, CA</h4>
-  <p>I'm not sure if I get the hype but it was a good sunset.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/losangeles.jpg" alt="Los Angeles, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/losangeles.jpg" alt="Los Angeles, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Los Angeles, CA</h4>
-  <p>So far just been to The Getty aka my favorite place on earth so far and the Original Farmers Market+The Grove.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/sandiego.jpg" alt="San Diego, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/sandiego.jpg" alt="San Diego, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>San Diego, CA</h4>
-  <p>Best farmer's market I've been to, love La Jolla area especially snorkeling and of course all the museums. Housemate trip Summer 2024 and Sorority retreat Jan 2025 (plus so many times as a kid and touring UCSD).</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/utah.jpg" alt="Salt Lake City, UT" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/utah.jpg" alt="Salt Lake City, UT" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Salt Lake City, UT</h4>
-  <p>My hometown. Well technically it's South Jordan and Draper but close enough. The people are iffy but you can't complain about the views.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/nyc.jpg" alt="New York City, NY" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/nyc.jpg" alt="New York City, NY" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>New York City, NY</h4>
-  <p>Visited Pri for Thanksgiving break 2024, overcame being scared of traveling alone (especially on the subway), ate so much good food for SO cheap, and explored basically all the main areas in 5 days. I love NYC, take me back.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/washingtondc.jpg" alt="Washington, DC" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/washingtondc.jpg" alt="Washington, DC" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Washington, DC</h4>
-  <p>Wait so I love DC so much! Went right during cherry blossom season Spring Break 2025 to visit Bhavya and the museums! food! transport! architecture style! events and markets! also I saw Giant Pandas which is a win.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/kerala2.jpg" alt="Cochi, Kerala" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/kerala2.jpg" alt="Cochi, Kerala" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Cochi, Kerala</h4>
-  <p>Dad's side.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/kerala1.jpg" alt="Kozhikode, Kerala" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/kerala1.jpg" alt="Kozhikode, Kerala" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Kozhikode, Kerala</h4>
-  <p>Mom's side.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/bombay2.jpg" alt="Mumbai (Bombay), India" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/bombay2.jpg" alt="Mumbai (Bombay), India" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Mumbai (Bombay), India</h4>
-  <p>I love bombay shopping.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/dubai.jpg" alt="Dubai, UAE" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/dubai.jpg" alt="Dubai, UAE" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Dubai, UAE</h4>
-  <p>Still haven't done a desert safari but I have fed a sloth.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/sacremento.jpg" alt="Sacramento, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/sacremento.jpg" alt="Sacramento, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Sacramento, CA</h4>
-  <p>Visited Swaras family in Gold River and met her pet birds Hari and Krishna!</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/calaveras.jpg" alt="Calaveras Big Trees State Park, CA" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/calaveras.jpg" alt="Calaveras Big Trees State Park, CA" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Calaveras Big Trees State Park, CA</h4>
-  <p>First stop before Washington DC for Spring break 2025, I love forests over beaches anyday and especially sequoia forests, it was also still snowy which was so fun:) </p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/florida.jpg" alt="Fort Lauderdale, FL" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/florida.jpg" alt="Fort Lauderdale, FL" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Fort Lauderdale, FL</h4>
-  <p>Went to visit family friends, swam with dolphins at the coolest resort I cannot remember the name of.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/page1.jpg" alt="Page, AZ" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/page1.jpg" alt="Page, AZ" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Page, AZ</h4>
-  <p>Saw Horseshoe Bend and Antelope Canyon and stayed in the cutest house in Page, AZ with Pri's family.</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/jacksonhole.jpg" alt="Jackson Hole, WY" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/jacksonhole.jpg" alt="Jackson Hole, WY" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Jackson Hole, WY</h4>
-  <p>Jackson Hole+National Parks</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/michigan.jpg" alt="Ann Arbor, MI" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/michigan.jpg" alt="Ann Arbor, MI" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Ann Arbor, MI</h4>
-  <p>Toured UMich in the middle of winter which was a mistake</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/madison.jpg" alt="Madison, WI" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/madison.jpg" alt="Madison, WI" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Madison, WI</h4>
-  <p>Toured UWMadison and I don't get the college town hype it was so small and boring</p>
 </div>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-  <img src="travelpics/chicago2.jpg" alt="Chicago, IL" style="width: 100%; border-radius: 4px;">
+  <img src="travelpics/chicago2.jpg" alt="Chicago, IL" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px;">
   <h4>Chicago, IL</h4>
-  <p>Visited family friends in December 2024, lived out my Ferris Bueller dreams of the Art Institute and blasting Twist and Shout</p>
 </div>
 
 </div>
