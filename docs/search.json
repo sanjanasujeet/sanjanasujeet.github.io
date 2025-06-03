@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere and data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization and mapping and removing the barriers of high scientific literacy needed to understand dense material.\nI am originally from Utah and I love traveling, hiking, roadtrips, sunset plunges, thrifting, any form of art but especially oil and charcoal, and grew up learning a classical Indian dance form called Bharatanatyam. I just started scuba diving"
+    "text": "My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere as well as data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization, mapping, creative outlets, and removing the barriers of high scientific literacy needed to understand dense material.\nI am originally from Utah and I love traveling, hiking, tidepooling, sunset plunges, finding cute coffee shops and antique stores, any form of art but especially oil and charcoal, and I just started scuba diving!"
   },
   {
     "objectID": "about.html#research-experience",
@@ -102,7 +102,7 @@
     "href": "AllProjects.html",
     "title": "All Projects",
     "section": "",
-    "text": "Tide and Terra Magazine\n\n\na UCSB mini magazine focused on communicating environmental topics- by students, from students\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Green Architecture- Comparing Ancient Civilization’s Techniques to Today’s\n\n\nA literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives that ended up winning the Library Award for Undergraduate Research…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSNARL Plastics\n\n\nFUERTE research project with Evelyn Tsang and Andrea Estrada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTide and Terra Magazine\n\n\na UCSB mini magazine focused on communicating environmental topics- by students, from students\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "AllProjects.html#snarl-microplastic-analysis",
@@ -131,5 +131,82 @@
     "title": "Tide and Terra Magazine",
     "section": "",
     "text": "Tide and Terra is a passion project collaboration between me and my friend, Evelyn Tsang, that combines both our interests of science communication and environmental issues with art and creative content.\nWebsite coming soon…\nThis is a draft of our first issue that will be printed in June 2024!"
+  },
+  {
+    "objectID": "posts/Architecture/index.html",
+    "href": "posts/Architecture/index.html",
+    "title": "Green Architecture- Comparing Ancient Civilization’s Techniques to Today’s",
+    "section": "",
+    "text": "It was published in the Open Access Publications from the University of California- eScholarship! here is a link to the published article\nor view it right here:"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html",
+    "href": "posts/SNARL_Plastics/index.html",
+    "title": "SNARL Plastics",
+    "section": "",
+    "text": "During September 2023, FUERTE, a field-work fellowship program, took 10 fellows including me and my project team to SNARL, the Sierra Nevada Aquatic Research Laboratory. Here we met professionals, learned R, and did a lot of hikes and fieldwork that culminated in our mini projects that we presented at SNARL and later at the EEMB Undergraduate Symposium. Our project was analyzing the macro and microplastics present in the Sierra Nevada lakes that we hiked to.\nHere are some preliminary graphs that helped us analyse, all code was written by me with help from Dr. Jannine Chamorro. This was my first time ever coding in R and this project sparked my interest in data science."
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-i-mapped-macroplastic-site-popularity-based-on-the-previous-graph",
+    "href": "posts/SNARL_Plastics/index.html#here-i-mapped-macroplastic-site-popularity-based-on-the-previous-graph",
+    "title": "SNARL Plastics",
+    "section": "Here I mapped macroplastic site popularity based on the previous graph:",
+    "text": "Here I mapped macroplastic site popularity based on the previous graph:\nmacropoponly &lt;-macro %&gt;% filter(pass==3)%&gt;% mutate(site=factor(site,levels=c(\"June\", \"Mary\", \"Parker\", \"Crystal\") ))\nggplot(data=macropoponly, aes(x=site, y=review_popularity, fill=popular)) +\n  geom_col() +\n  scale_fill_manual(values=c(\"darkolivegreen3\", \"steelblue2\")) +\n  labs(title=\"Site Popularity\", x=\"Site\", y=\"Number of Reviews\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-i-graphed-how-much-macroplastic-was-at-each-site",
+    "href": "posts/SNARL_Plastics/index.html#here-i-graphed-how-much-macroplastic-was-at-each-site",
+    "title": "SNARL Plastics",
+    "section": "Here I graphed how much macroplastic was at each site:",
+    "text": "Here I graphed how much macroplastic was at each site:\nmacrosumonly&lt;-macrosumonly %&gt;% mutate(site=factor(site,levels=c(\"June\", \"Mary\", \"Parker\", \"Crystal\") ))\nggplot(data=macrosumonly, aes(x=site, y=plastic_sum, fill=popular)) +\n  geom_col() +\n  scale_fill_manual(values=c(\"darkolivegreen3\", \"steelblue2\")) +\n  labs(title=\"Total Macroplastic per Site\", x= \"Site\", y=\"Total Macroplastic Count(pieces)\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-we-looked-at-the-correlation-of-macroplastic-presence-and-popularity-of-the-site-based-on-google-reviews",
+    "href": "posts/SNARL_Plastics/index.html#here-we-looked-at-the-correlation-of-macroplastic-presence-and-popularity-of-the-site-based-on-google-reviews",
+    "title": "SNARL Plastics",
+    "section": "Here we looked at the correlation of macroplastic presence and popularity of the site based on google reviews:",
+    "text": "Here we looked at the correlation of macroplastic presence and popularity of the site based on google reviews:\nggplot(data=macrosumonly, aes(x=review_popularity, y=plastic_mass_sum)) +\n  geom_point() +\n  stat_smooth(method=\"lm\", se=FALSE) +\n  labs(title=\"Macroplastics and popularity\", x=\"Popularity(no. of google reviews)\", y=\"Macroplastics(count)\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-i-cleaned-microplastic-data-and-looked-at-how-much-was-at-each-site-we-collected-sediment-samples",
+    "href": "posts/SNARL_Plastics/index.html#here-i-cleaned-microplastic-data-and-looked-at-how-much-was-at-each-site-we-collected-sediment-samples",
+    "title": "SNARL Plastics",
+    "section": "Here I cleaned microplastic data and looked at how much was at each site we collected sediment samples:",
+    "text": "Here I cleaned microplastic data and looked at how much was at each site we collected sediment samples:\nmicro&lt;-micro %&gt;% mutate(count_per_gram = total_count/sediment_weight_g) %&gt;%\n  filter(!site%in% c(\"Convict RT\", \"Convict\"))\nmicro$site&lt;-as.factor(micro$site)\nmicro&lt;-micro %&gt;% mutate(site=factor(site,levels=c(\"Convict RT\", \"Convict\",\"June\",\"Silver\", \"Mary\", \"Parker\", \"Crystal\",\"Marmot\", \"Trapdoor\") ))\nmicro$fishing&lt;-as.factor(micro$fishing)\nggplot(data=micro, aes(site,count_per_gram, fill=fishing)) +\n  geom_col() +\n  scale_fill_manual(values=c(\"darkolivegreen4\", \"steelblue2\",\"yellow\")) +\n  labs(title=\"Total Microplastics per gram of sediment at each site\", x= \"Site\", y=\"Count/Gram\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-i-looked-at-the-average-microplastic-count-per-site-with-standard-error-bars",
+    "href": "posts/SNARL_Plastics/index.html#here-i-looked-at-the-average-microplastic-count-per-site-with-standard-error-bars",
+    "title": "SNARL Plastics",
+    "section": "here I looked at the average microplastic count per site with standard error bars",
+    "text": "here I looked at the average microplastic count per site with standard error bars\nmicro_ave&lt;-micro %&gt;% group_by(fishing) %&gt;% summarize(n=n(), mean=mean(count_per_gram), sd=sd(count_per_gram), standard_error = sd/sqrt(n))\nggplot(data=micro_ave, aes(x=fishing, y=mean, fill=fishing)) +\n  geom_col(stat=\"identity\", position=position_dodge()) +\n  scale_fill_manual(values=c(\"darkolivegreen4\", \"steelblue2\",\"yellow\")) +\n  geom_errorbar(aes(ymin=mean, ymax=mean+sd), width=0.2, position=position_dodge(.9)) +\n  labs(title=\"Average count of microplastic per gram for each fishing category with error bars\", x= \"Fishing\", y=\"Average count/gram\")\n\n\n\n\nWarning in geom_col(stat = \"identity\", position = position_dodge()): Ignoring\nunknown parameters: `stat`"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-we-looked-at-if-the-amount-of-macroplastics-affected-the-amount-of-microplastics",
+    "href": "posts/SNARL_Plastics/index.html#here-we-looked-at-if-the-amount-of-macroplastics-affected-the-amount-of-microplastics",
+    "title": "SNARL Plastics",
+    "section": "Here we looked at if the amount of macroplastics affected the amount of microplastics:",
+    "text": "Here we looked at if the amount of macroplastics affected the amount of microplastics:\nmicro_site_ave &lt;- micro %&gt;% group_by(site) %&gt;% summarize(n=n(), mean=mean(count_per_gram), sd=sd(count_per_gram), standard_error = sd/sqrt(n))\nmacrosumonly$site &lt;- as.character(macrosumonly$site)\nmacrosumonly$site[macrosumonly$site == \"Convict\"] &lt;- \"Convict S\"\nmacrosumonly$site &lt;- as.factor(macrosumonly$site)\nmicro_site_ave$site &lt;- as.character(micro_site_ave$site)\nmicro_site_ave$site[micro_site_ave$site == \"Convict\"] &lt;- \"Convict S\"\nmicro_site_ave$site &lt;- as.factor(micro_site_ave$site)\nall_plastic &lt;- merge(micro_site_ave, macrosumonly)\nggplot(data=all_plastic, aes(x=plastic_sum, y=mean, colour=site)) +\n  geom_point(size=3) +\n  stat_smooth(method=\"lm\") +\n  labs(title=\"Microplastics and Macroplastics\", x= \"Macroplastic(pieces)\", y=\"Microplastics per grams of sediment\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-i-cleaned-the-macroplastic-data-and-looked-at-the-number-of-google-reviews-of-the-lakes-where-we-collected-data",
+    "href": "posts/SNARL_Plastics/index.html#here-i-cleaned-the-macroplastic-data-and-looked-at-the-number-of-google-reviews-of-the-lakes-where-we-collected-data",
+    "title": "SNARL Plastics",
+    "section": "Here I cleaned the macroplastic data and looked at the number of google reviews of the lakes where we collected data:",
+    "text": "Here I cleaned the macroplastic data and looked at the number of google reviews of the lakes where we collected data:\nmacro&lt;-macro %&gt;% filter(site%in% c(\"Crystal\", \"Mary\", \"June\", \"Parker\"))\nmacro$site&lt;-as.factor(macro$site)\nmacrosum&lt;-macro %&gt;% group_by(site) %&gt;% mutate(plastic_sum=cumsum(plastic_count), plastic_mass_sum=cumsum(plastic_mass))\nmacrosumonly &lt;-macrosum %&gt;% filter(pass==3)\nmacro&lt;-macro %&gt;% mutate(fishing_plastic=powerbait+fishing_line)\nfishing_macro&lt;-macro %&gt;% group_by(site) %&gt;% mutate(fishingsum=cumsum(fishing_plastic)) %&gt;% filter(pass==3)\nggplot(data=fishing_macro, aes(x=review_popularity, y=fishingsum, fill=popular)) +\n  geom_col() +\n  scale_fill_manual(values=c(\"darkolivegreen3\", \"steelblue2\")) +\n  labs(title=\"Fishing Plastics vs Popularity\", x=\"Number of Reviews\", y=\"Total Fishing Line and Powerbait Count(pieces)\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#here-we-looked-at-the-average-microplastic-count-per-site-with-standard-error-bars",
+    "href": "posts/SNARL_Plastics/index.html#here-we-looked-at-the-average-microplastic-count-per-site-with-standard-error-bars",
+    "title": "SNARL Plastics",
+    "section": "Here we looked at the average microplastic count per site with standard error bars:",
+    "text": "Here we looked at the average microplastic count per site with standard error bars:\nmicro_ave&lt;-micro %&gt;% group_by(fishing) %&gt;% summarize(n=n(), mean=mean(count_per_gram), sd=sd(count_per_gram), standard_error = sd/sqrt(n))\nggplot(data=micro_ave, aes(x=fishing, y=mean, fill=fishing)) +\n  geom_col(stat=\"identity\", position=position_dodge()) +\n  scale_fill_manual(values=c(\"darkolivegreen4\", \"steelblue2\",\"yellow\")) +\n  geom_errorbar(aes(ymin=mean, ymax=mean+sd), width=0.2, position=position_dodge(.9)) +\n  labs(title=\"Average count of microplastic per gram for each fishing category with error bars\", x= \"Fishing\", y=\"Average count/gram\")"
+  },
+  {
+    "objectID": "posts/SNARL_Plastics/index.html#we-made-a-lot-more-graphs-after-this-that-we-used-in-our-eemb-urs-presentation-and-to-draw-conclusions-but-this-was-the-beginning-framework-that-we-presented-at-snarl.",
+    "href": "posts/SNARL_Plastics/index.html#we-made-a-lot-more-graphs-after-this-that-we-used-in-our-eemb-urs-presentation-and-to-draw-conclusions-but-this-was-the-beginning-framework-that-we-presented-at-snarl.",
+    "title": "SNARL Plastics",
+    "section": "We made a lot more graphs after this that we used in our EEMB URS presentation and to draw conclusions, but this was the beginning framework that we presented at SNARL.",
+    "text": "We made a lot more graphs after this that we used in our EEMB URS presentation and to draw conclusions, but this was the beginning framework that we presented at SNARL."
   }
 ]
