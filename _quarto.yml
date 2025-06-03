@@ -18,7 +18,7 @@ website:
       - href: traveltracker.qmd
         text: Travel
         icon: globe
-      - href: Projects.qmd
+      - href: AllProjects.qmd
         text: Projects
         icon: palette
 
