@@ -5,125 +5,118 @@ format:
     allow-html: true
 ---
 
-My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere as well as data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization, mapping, creative outlets, and removing the barriers of high scientific literacy needed to understand dense material.
+My name is Sanjana Sujeet, I use she/her pronouns, and I grew up in Utah. I am currently a third-year undergrad at UC Santa Barbara studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere as well as data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization, mapping, creative outlets, and removing the barriers of high scientific literacy needed to understand dense material.
 
-I am originally from Utah and I love ...
 
-::: {.columns}
+Some things I love are animals, reading, substack, photography/videography and...
 
+::: columns
 ::: {.column width="25%"}
-
 ## hiking...
 
 <img src="media/hike.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
 
 So far, in Santa Barbara I have been to:
 
-- Inspiration Point  
-- Cold Springs  
-- Hot Springs  
-- Seven Falls  
-- Gaviota Wind Caves  
-
+-   Inspiration Point\
+-   Cold Springs\
+-   Hot Springs\
+-   Seven Falls\
+-   Gaviota Wind Caves
 :::
 
 ::: {.column width="25%"}
-
 ## ...
 
 But I have also hiked around the Sierra Nevadas, Utah, and 13/63 of the National Parks in the US:
 
-- Arches  
-- Bryce Canyon  
-- Canyonlands  
-- Capitol Reef  
-- Everglades  
-- Grand Canyon  
-- Grand Teton  
-- Mesa Verde  
-- Redwood  
-- Sequoia  
-- Yellowstone  
-- Yosemite  
-- Zion
+-   Arches\
+-   Bryce Canyon\
+-   Canyonlands\
+-   Capitol Reef\
+-   Everglades\
+-   Grand Canyon\
+-   Grand Teton\
+-   Mesa Verde\
+-   Redwood\
+-   Sequoia\
+-   Yellowstone\
+-   Yosemite\
+-   Zion
 :::
 
-
 ::: {.column width="25%"}
-
 ## tidepooling...
 
 <img src="media/tidepooling.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
 
+## finding cute coffee shops and antique stores...
 
-
-
-## reading...
-
-<img src="media/read.jpg" alt="My photo"
+```{=html}
+<img src="media/coffee.jpg" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
+```
 
 :::
 
 ::: {.column width="25%"}
-
 ## sunset plunges...
 
 <img src="media/plunge.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
 
+## traveling...
 
+check out my travel tracking page through the navigation bar!
 
+<img src="media/plane.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
+:::
+
+::: {.column width="25%"}
+## movies...
+
+```{=html}
+<img src="media/truman.png" alt="My photo"
+     style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
+```
+:::
+
+::: {.column width="25%"}
+## art...
+
+My mom is an art teacher so I've grown up always doing art
+
+```{=html}
+<img src="media/art.jpg" alt="My photo"
+     style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
+```
+My favorite medium is oil paint, but I also use charcoal, pen and ink, linography, watercolor, acrylic, pastel, and very beginner level pottery.
+:::
+
+::: {.column width="25%"}
 
 ## live music...
 
 <img src="media/concert.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
 
+I also love making playlists, this is my latest:
+```{=html}
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3btqD9cN7Dh23RwFoklnP9?utm_source=generator" width="90%" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+```
 
 :::
 
 ::: {.column width="25%"}
-
-## finding cute coffee shops and antique stores...
-
-
-<img src="media/coffee.jpg" alt="My photo"
-     style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
-
-
-:::
-
-::: {.column width="25%"}
-
-## art...
-My mom is an art teacher so I've grown up always doing art
-
-<img src="media/art.jpg" alt="My photo"
-     style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
-
-My favorite medium is oil paint, but I also use charcoal, pen and ink, linography, watercolor, acrylic, pastel, and very beginner level pottery.
-
-:::
-
-::: {.column width="25%"}
-
-## traveling...
-check out my travel tracking page!
-
-<img src="media/plane.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
-
-
-:::
-
-::: {.column width="25%"}
-
 ## and I just started scuba diving!
 
+```{=html}
 <img src="media/scuba.jpg" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
+```
 
 open water cert: august 2024
+
 scientific cert coming soon!
 :::
-
-
 :::
+
