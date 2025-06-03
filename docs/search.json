@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Sanjana Sujeet",
     "section": "",
-    "text": "Hello!\nWelcome to my personal website! Feel free to check out my other pages with my CV, travel tracker, and art, or contact me at sanjsujeet@gmail.com by just clicking the buttons under my picture!"
+    "text": "Hello!\nMy name is Sanjana Sujeet and I am a 3rd year student at UCSB, welcome to my personal website! Feel free to check out my other pages with my CV, travel tracker, and projects. Also, check out my linked in, github, or contact me at sanjsujeet@gmail.com by just clicking the buttons under my picture!"
   },
   {
     "objectID": "index.html#about",
@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere as well as data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization, mapping, creative outlets, and removing the barriers of high scientific literacy needed to understand dense material.\nI am originally from Utah and I love traveling, hiking, tidepooling, sunset plunges, finding cute coffee shops and antique stores, any form of art but especially oil and charcoal, and I just started scuba diving!"
+    "text": "My name is Sanjana and I am currently an third year undergrad at UCSB studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere as well as data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization, mapping, creative outlets, and removing the barriers of high scientific literacy needed to understand dense material.\nI am originally from Utah and I love …"
   },
   {
     "objectID": "about.html#research-experience",
@@ -67,7 +67,7 @@
     "href": "traveltracker.html#my-travel-map",
     "title": "Places I’ve Been",
     "section": "My Travel Map",
-    "text": "My Travel Map\nOne of my favorite things to do is to create detailed itineraries(that my travel buddies have a love-hate relationship with, I am not a believer of resting during trips and I schedule everything down to the last minute) and explore new cities. I also love collecting tangible memories from each place through ticket stubs, postcards, and lots and lots of photos. One of my biggest goals is to travel to as many countries as possible and cover this map with pins!\nClick on each pin to see some pictures of where I’ve been and a little description of what the trip meant to me:)\n\n\n\n\n\n📍 All Locations by Region\n\n\n\n\nSanta Barbara, CA\n\n\n\n\n\nSanta Clara, CA\n\n\n\n\n\nSan Francisco, CA\n\n\n\n\n\nSan Luis Obispo, CA\n\n\n\n\n\nVentura, CA\n\n\n\n\n\nSolvang, CA\n\n\n\n\n\nSummerland, CA\n\n\n\n\n\nMorro Bay, CA\n\n\n\n\n\nPismo Beach, CA\n\n\n\n\n\nLos Angeles, CA\n\n\n\n\n\nSan Diego, CA\n\n\n\n\n\nSalt Lake City, UT\n\n\n\n\n\nNew York City, NY\n\n\n\n\n\nWashington, DC\n\n\n\n\n\nCochi, Kerala\n\n\n\n\n\nKozhikode, Kerala\n\n\n\n\n\nMumbai, India\n\n\n\n\n\nDubai, UAE\n\n\n\n\n\nSacramento, CA\n\n\n\n\n\nCalaveras Big Trees State Park, CA\n\n\n\n\n\nFort Lauderdale, FL\n\n\n\n\n\nPage, AZ\n\n\n\n\n\nJackson Hole, WY\n\n\n\n\n\nAnn Arbor, MI\n\n\n\n\n\nMadison, WI\n\n\n\n\n\nChicago, IL"
+    "text": "My Travel Map\nOne of my favorite things to do is to explore new cities and create detailed itineraries(that my travel buddies have a love-hate relationship with, I am not a believer of resting during trips and I schedule everything down to the last minute). I also love collecting tangible memories from each place through ticket stubs, postcards, and lots and lots of photos. One of my biggest goals is to travel to as many countries as possible and cover this map with pins!\nClick on each pin to see some pictures of where I’ve been and a little description of what the trip meant to me:) You can also view a gallery of all these places below the map.\n\n\n\n\n\n📍 All Locations by Region\n\n\n\n\nSanta Barbara, CA\n\n\n\n\n\nSanta Clara, CA\n\n\n\n\n\nSan Francisco, CA\n\n\n\n\n\nSan Luis Obispo, CA\n\n\n\n\n\nVentura, CA\n\n\n\n\n\nSolvang, CA\n\n\n\n\n\nSummerland, CA\n\n\n\n\n\nMorro Bay, CA\n\n\n\n\n\nPismo Beach, CA\n\n\n\n\n\nLos Angeles, CA\n\n\n\n\n\nSan Diego, CA\n\n\n\n\n\nSalt Lake City, UT\n\n\n\n\n\nNew York City, NY\n\n\n\n\n\nWashington, DC\n\n\n\n\n\nCochi, Kerala\n\n\n\n\n\nKozhikode, Kerala\n\n\n\n\n\nMumbai, India\n\n\n\n\n\nDubai, UAE\n\n\n\n\n\nSacramento, CA\n\n\n\n\n\nCalaveras Big Trees State Park, CA\n\n\n\n\n\nMesa Verde, CO\n\n\n\n\n\nFort Lauderdale, FL\n\n\n\n\n\nPage, AZ\n\n\n\n\n\nJackson Hole, WY\n\n\n\n\n\nAnn Arbor, MI\n\n\n\n\n\nMadison, WI\n\n\n\n\n\nChicago, IL"
   },
   {
     "objectID": "traveltracker.html#all-locations-by-region",
@@ -208,5 +208,96 @@
     "title": "SNARL Plastics",
     "section": "We made a lot more graphs after this that we used in our EEMB URS presentation and to draw conclusions, but this was the beginning framework that we presented at SNARL.",
     "text": "We made a lot more graphs after this that we used in our EEMB URS presentation and to draw conclusions, but this was the beginning framework that we presented at SNARL."
+  },
+  {
+    "objectID": "about.html#hiking",
+    "href": "about.html#hiking",
+    "title": "About Me",
+    "section": "hiking…",
+    "text": "hiking…\n\nSo far, in Santa Barbara I have been to:\n\nInspiration Point\n\nCold Springs\n\nHot Springs\n\nSeven Falls\n\nGaviota Wind Caves"
+  },
+  {
+    "objectID": "about.html#tidepooling",
+    "href": "about.html#tidepooling",
+    "title": "About Me",
+    "section": "tidepooling…",
+    "text": "tidepooling…"
+  },
+  {
+    "objectID": "about.html#sunset-plunges",
+    "href": "about.html#sunset-plunges",
+    "title": "About Me",
+    "section": "sunset plunges…",
+    "text": "sunset plunges…"
+  },
+  {
+    "objectID": "about.html#finding-cute-coffee-shops-and-antique-stores",
+    "href": "about.html#finding-cute-coffee-shops-and-antique-stores",
+    "title": "About Me",
+    "section": "finding cute coffee shops and antique stores…",
+    "text": "finding cute coffee shops and antique stores…"
+  },
+  {
+    "objectID": "about.html#any-form-of-art",
+    "href": "about.html#any-form-of-art",
+    "title": "About Me",
+    "section": "any form of art…",
+    "text": "any form of art…"
+  },
+  {
+    "objectID": "about.html#and-i-just-started-scuba-diving",
+    "href": "about.html#and-i-just-started-scuba-diving",
+    "title": "About Me",
+    "section": "and I just started scuba diving!",
+    "text": "and I just started scuba diving!\n\nopen water cert: august 2024 scientific cert coming soon!"
+  },
+  {
+    "objectID": "about.html#traveling",
+    "href": "about.html#traveling",
+    "title": "About Me",
+    "section": "traveling…",
+    "text": "traveling…\ncheck out my travel tracking page!"
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "About Me",
+    "section": "…",
+    "text": "…\nBut I have also hiked around the Sierra Nevadas, Utah, and 13/63 of the National Parks in the US:\n\nArches\n\nBryce Canyon\n\nCanyonlands\n\nCapitol Reef\n\nEverglades\n\nGrand Canyon\n\nGrand Teton\n\nMesa Verde\n\nRedwood\n\nSequoia\n\nYellowstone\n\nYosemite\n\nZion"
+  },
+  {
+    "objectID": "about.html#art",
+    "href": "about.html#art",
+    "title": "About Me",
+    "section": "art…",
+    "text": "art…\nMy mom is an art teacher so I’ve grown up always doing art\n\nMy favorite medium is oil paint, but I also use charcoal, pen and ink, linography, watercolor, acrylic, pastel, and very beginner level pottery."
+  },
+  {
+    "objectID": "about.html#number-1",
+    "href": "about.html#number-1",
+    "title": "About Me",
+    "section": "number 1",
+    "text": "number 1"
+  },
+  {
+    "objectID": "about.html#number-2",
+    "href": "about.html#number-2",
+    "title": "About Me",
+    "section": "number 2",
+    "text": "number 2"
+  },
+  {
+    "objectID": "about.html#reading",
+    "href": "about.html#reading",
+    "title": "About Me",
+    "section": "reading…",
+    "text": "reading…"
+  },
+  {
+    "objectID": "about.html#live-music",
+    "href": "about.html#live-music",
+    "title": "About Me",
+    "section": "live music…",
+    "text": "live music…"
   }
 ]

@@ -1,15 +1,14 @@
 ---
 title: SNARL Plastics
 description: FUERTE research project with Evelyn Tsang and Andrea Estrada
-image: tnt.png
+image: plastics.png
 ---
 
-During September 2023, FUERTE, a field-work fellowship program, took 10 fellows including me and my project team to SNARL, the Sierra Nevada Aquatic Research Laboratory. Here we met professionals, learned R, and did a lot of hikes and fieldwork that culminated in our mini projects that we presented at SNARL and later at the EEMB Undergraduate Symposium. Our project was analyzing the macro and microplastics present in the Sierra Nevada lakes that we hiked to. 
+During September 2023, FUERTE, a field-work fellowship program, took 10 fellows including me and my project team to SNARL, the Sierra Nevada Aquatic Research Laboratory. Here we met professionals, learned R, and did a lot of hikes and fieldwork that culminated in our mini projects that we presented at SNARL and later at the EEMB Undergraduate Symposium. Our project was analyzing the macro and microplastics present in the Sierra Nevada lakes that we hiked to.
 
 Here are some preliminary graphs that helped us analyse, all code was written by me with help from Dr. Jannine Chamorro. This was my first time ever coding in R and this project sparked my interest in data science.
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -28,13 +27,11 @@ macro<-clean_names(macro)
 micro<-clean_names(micro)
 glitter<-clean_names(glitter)
 ```
-
 :::
 
 ## Here I cleaned the macroplastic data and looked at the number of google reviews of the lakes where we collected data:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r}
 macro<-macro %>% filter(site%in% c("Crystal", "Mary", "June", "Parker"))
 macro$site<-as.factor(macro$site)
@@ -50,13 +47,11 @@ ggplot(data=fishing_macro, aes(x=review_popularity, y=fishingsum, fill=popular))
   scale_fill_manual(values=c("darkolivegreen3", "steelblue2")) +
   labs(title="Fishing Plastics vs Popularity", x="Number of Reviews", y="Total Fishing Line and Powerbait Count(pieces)")
 ```
-
 :::
 
 ## Here I mapped macroplastic site popularity based on the previous graph:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r}
 macropoponly <-macro %>% filter(pass==3)%>% mutate(site=factor(site,levels=c("June", "Mary", "Parker", "Crystal") ))
 ```
@@ -67,13 +62,11 @@ ggplot(data=macropoponly, aes(x=site, y=review_popularity, fill=popular)) +
   scale_fill_manual(values=c("darkolivegreen3", "steelblue2")) +
   labs(title="Site Popularity", x="Site", y="Number of Reviews")
 ```
-
 :::
 
 ## Here I graphed how much macroplastic was at each site:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r}
 macrosumonly<-macrosumonly %>% mutate(site=factor(site,levels=c("June", "Mary", "Parker", "Crystal") ))
 ```
@@ -84,13 +77,11 @@ ggplot(data=macrosumonly, aes(x=site, y=plastic_sum, fill=popular)) +
   scale_fill_manual(values=c("darkolivegreen3", "steelblue2")) +
   labs(title="Total Macroplastic per Site", x= "Site", y="Total Macroplastic Count(pieces)")
 ```
-
 :::
 
 ## Here we looked at the correlation of macroplastic presence and popularity of the site based on google reviews:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r, message = FALSE, warning = FALSE}
 ggplot(data=macrosumonly, aes(x=review_popularity, y=plastic_mass_sum)) +
   geom_point() +
@@ -101,13 +92,11 @@ ggplot(data=macrosumonly, aes(x=review_popularity, y=plastic_mass_sum)) +
 ```{r, include = FALSE, message = FALSE, warning = FALSE}
 lm(data=macrosumonly, plastic_sum~review_popularity) %>% summary()
 ```
-
 :::
 
 ## Here I cleaned microplastic data and looked at how much was at each site we collected sediment samples:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r}
 micro<-micro %>% mutate(count_per_gram = total_count/sediment_weight_g) %>%
   filter(!site%in% c("Convict RT", "Convict"))
@@ -122,13 +111,11 @@ ggplot(data=micro, aes(site,count_per_gram, fill=fishing)) +
   scale_fill_manual(values=c("darkolivegreen4", "steelblue2","yellow")) +
   labs(title="Total Microplastics per gram of sediment at each site", x= "Site", y="Count/Gram")
 ```
-
 :::
 
 ## Here we looked at the average microplastic count per site with standard error bars:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r, message = FALSE, warning = FALSE}
 micro_ave<-micro %>% group_by(fishing) %>% summarize(n=n(), mean=mean(count_per_gram), sd=sd(count_per_gram), standard_error = sd/sqrt(n))
 ```
@@ -140,13 +127,11 @@ ggplot(data=micro_ave, aes(x=fishing, y=mean, fill=fishing)) +
   geom_errorbar(aes(ymin=mean, ymax=mean+sd), width=0.2, position=position_dodge(.9)) +
   labs(title="Average count of microplastic per gram for each fishing category with error bars", x= "Fishing", y="Average count/gram")
 ```
-
 :::
 
 ## Here we looked at if the amount of macroplastics affected the amount of microplastics:
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 ```{r, message = FALSE, warning = FALSE}
 micro_site_ave <- micro %>% group_by(site) %>% summarize(n=n(), mean=mean(count_per_gram), sd=sd(count_per_gram), standard_error = sd/sqrt(n))
 macrosumonly$site <- as.character(macrosumonly$site)
@@ -164,7 +149,6 @@ ggplot(data=all_plastic, aes(x=plastic_sum, y=mean, colour=site)) +
   stat_smooth(method="lm") +
   labs(title="Microplastics and Macroplastics", x= "Macroplastic(pieces)", y="Microplastics per grams of sediment")
 ```
-
 :::
 
 ## We made a lot more graphs after this that we used in our EEMB URS presentation and to draw conclusions, but this was the beginning framework that we presented at SNARL.
