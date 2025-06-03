@@ -7,8 +7,7 @@ format:
 
 My name is Sanjana Sujeet, I use she/her pronouns, and I grew up in Utah. I am currently a third-year undergrad at UC Santa Barbara studying Environmental Science and Spatial Science! I am interested in climate change science especially in the marine sphere as well as data science/visualization. I am passionate about bridging the gap between the science community and the public through data visualization, mapping, creative outlets, and removing the barriers of high scientific literacy needed to understand dense material.
 
-
-Some things I love are animals, reading, substack, photography/videography and...
+Some things I love are animals, reading, substacks, photography/videography and...
 
 ::: columns
 ::: {.column width="25%"}
@@ -46,17 +45,16 @@ But I have also hiked around the Sierra Nevadas, Utah, and 13/63 of the National
 :::
 
 ::: {.column width="25%"}
-## tidepooling...
+## live music...
 
-<img src="media/tidepooling.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
+<img src="media/concert.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
 
-## finding cute coffee shops and antique stores...
+I also love making playlists, this is my latest:
 
 ```{=html}
-<img src="media/coffee.jpg" alt="My photo"
-     style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
-```
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3btqD9cN7Dh23RwFoklnP9?utm_source=generator" width="85%" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+```
 :::
 
 ::: {.column width="25%"}
@@ -78,6 +76,8 @@ check out my travel tracking page through the navigation bar!
 <img src="media/truman.png" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
 ```
+
+I love gore, romcoms, and classics but I always go back to The Truman Show, The Grand Budapest Hotel, and Pride and Prejudice 2005.
 :::
 
 ::: {.column width="25%"}
@@ -89,21 +89,14 @@ My mom is an art teacher so I've grown up always doing art
 <img src="media/art.jpg" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
 ```
+
 My favorite medium is oil paint, but I also use charcoal, pen and ink, linography, watercolor, acrylic, pastel, and very beginner level pottery.
 :::
 
 ::: {.column width="25%"}
+## tidepooling...
 
-## live music...
-
-<img src="media/concert.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
-
-I also love making playlists, this is my latest:
-```{=html}
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3btqD9cN7Dh23RwFoklnP9?utm_source=generator" width="90%" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-```
-
+<img src="media/tidepooling.jpg" alt="My photo" style="width:150px; height:150px; border-radius:50%;"/>
 :::
 
 ::: {.column width="25%"}
@@ -119,4 +112,3 @@ open water cert: august 2024
 scientific cert coming soon!
 :::
 :::
-

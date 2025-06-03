@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
 
 // Colors
+$darker-green: #515B48;
 $dark-green: #858E79;
 $light-green: #D1D9CE;
 $cream: #FDFBF7;
@@ -14,3 +15,9 @@ $body-bg: $light-green; // page background
 $body-color: $gray; // page text 
 $footer-bg: $cream; // footer 
 $link-color: $dark-green; // hyperlinks
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: $darker-green;
+}
