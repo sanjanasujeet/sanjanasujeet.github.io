@@ -102,7 +102,7 @@
     "href": "AllProjects.html",
     "title": "All Projects",
     "section": "",
-    "text": "Tide and Terra Magazine\n\n\na UCSB mini magazine focused on communicating environmental topics- by students, from students\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreen Architecture- Comparing Ancient Civilization’s Techniques to Today’s\n\n\nA literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives that ended up winning the Library Award for Undergraduate Research…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSNARL Plastics\n\n\nFUERTE research project with Evelyn Tsang and Andrea Estrada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichmond Urban Heat Island Effect Dashboard\n\n\nan ArcGIS Dashboard visualizing the Urban Heat Island Effect in Richmond, Virginia made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCholera StoryMap\n\n\nan ArcGIS StoryMap visualizing John Snow’s Cholera outbreak Map made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVolcano StoryMap\n\n\nan ArcGIS StoryMap visualizing the 2018 Kilauea Volcanic Eruption made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Tide and Terra Magazine\n\n\na UCSB mini magazine focused on communicating environmental topics- by students, from students\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreen Architecture- Comparing Ancient Civilization’s Techniques to Today’s\n\n\nA literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives, won the Library Award for Undergraduate Research 1st place for…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSNARL Plastics\n\n\nFUERTE research project with Evelyn Tsang and Andrea Estrada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichmond Urban Heat Island Effect Dashboard\n\n\nan ArcGIS Dashboard visualizing the Urban Heat Island Effect in Richmond, Virginia made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCholera StoryMap\n\n\nan ArcGIS StoryMap visualizing John Snow’s Cholera outbreak Map made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVolcano StoryMap\n\n\nan ArcGIS StoryMap visualizing the 2018 Kilauea Volcanic Eruption made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "AllProjects.html#snarl-microplastic-analysis",
@@ -137,7 +137,7 @@
     "href": "posts/Architecture/index.html",
     "title": "Green Architecture- Comparing Ancient Civilization’s Techniques to Today’s",
     "section": "",
-    "text": "It was published in the Open Access Publications from the University of California- eScholarship! here is a link to the published article\nor view it right here:"
+    "text": "For my ENVS 40 Critical Thinking and Reasoning in Environmental Studies, I wrote a research paper where I conducted literature reviews on architecture styles across culture. I wanted to combine my interests of anthropology and sustainability. This essay goes over modern high-energy construction issues, different ancient buildings from various civilizations that addressed the same issues while using less energy, and suggestions on how to integrate them together.\nIt won 1st place in the Library Award for Undergraduate Research in the Social Science category and was published in the Open Access Publications from the University of California- eScholarship! here is a link to the published article\nor view it right here:"
   },
   {
     "objectID": "posts/SNARL_Plastics/index.html",
@@ -317,7 +317,7 @@
   {
     "objectID": "posts/Cholera Storymap/index.html",
     "href": "posts/Cholera Storymap/index.html",
-    "title": "Volcano StoryMap",
+    "title": "Cholera StoryMap",
     "section": "",
     "text": "```{=html}\n\n\n\nView the StoryMap"
   },

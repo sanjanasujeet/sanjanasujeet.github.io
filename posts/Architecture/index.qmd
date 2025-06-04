@@ -1,11 +1,13 @@
 ---
 title: Green Architecture- Comparing Ancient Civilization’s Techniques to Today’s
-description: A literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives that ended up winning the Library Award for Undergraduate Research 1st place for social studies. 
+description: A literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives, won the Library Award for Undergraduate Research 1st place for social studies. 
 image: laur.png
 order: 2
 ---
 
-It was published in the Open Access Publications from the University of California- eScholarship! [here is a link to the published article](https://escholarship.org/uc/item/1198n2k9)
+For my ENVS 40 Critical Thinking and Reasoning in Environmental Studies, I wrote a research paper where I conducted literature reviews on architecture styles across culture. I wanted to combine my interests of anthropology and sustainability. This essay goes over modern high-energy construction issues, different ancient buildings from various civilizations that addressed the same issues while using less energy, and suggestions on how to integrate them together.
+
+It won 1st place in the Library Award for Undergraduate Research in the Social Science category and was published in the Open Access Publications from the University of California- eScholarship! [here is a link to the published article](https://escholarship.org/uc/item/1198n2k9)
 
 or view it right here:
 
