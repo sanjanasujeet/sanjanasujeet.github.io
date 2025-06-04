@@ -5,6 +5,6 @@ image: cholera.png
 order: 5
 ---
 
-\`\`\`{=html}
+```{=html}
 
-[![View the StoryMap](cholera.png)](https://storymaps.arcgis.com/stories/e354793e8e664e7eb14f691dafc39825)
+[![View the StoryMap](cholera.png)](https://storymaps.arcgis.com/stories/e354793e8e664e7eb14f691dafc39825){target="_blank"}

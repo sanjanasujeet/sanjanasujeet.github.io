@@ -5,6 +5,6 @@ image: urbanheatisland.png
 order: 4
 ---
 
-\`\`\`{=html}
+```{=html}
 
-[![View the StoryMap](urbanheatisland.png)](https://www.arcgis.com/apps/dashboards/096c07bf6a5a47e2b731c923f7306ded)
+[![View the StoryMap](urbanheatisland.png)](https://www.arcgis.com/apps/dashboards/096c07bf6a5a47e2b731c923f7306ded){target="_blank"}

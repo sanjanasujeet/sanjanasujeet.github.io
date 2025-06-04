@@ -5,6 +5,6 @@ image: volcano.png
 order: 6
 ---
 
-\`\`\`{=html}
+```{=html}
 
-[![View the StoryMap](volcano.png)](https://storymaps.arcgis.com/stories/ad3d2d2eb93a4cb594f8df3a505d4732)
+[![View the StoryMap](volcano.png)](https://storymaps.arcgis.com/stories/ad3d2d2eb93a4cb594f8df3a505d4732){target="_blank"}
