@@ -2,9 +2,12 @@
   {
     "listing": "/AllProjects.html",
     "items": [
+      "/posts/TideandTerra/index.html",
       "/posts/Architecture/index.html",
       "/posts/SNARL_Plastics/index.html",
-      "/posts/TideandTerra/index.html"
+      "/posts/Urban Heat Island Dashboard/index.html",
+      "/posts/Cholera Storymap/index.html",
+      "/posts/Volcano Storymap/index.html"
     ]
   }
 ]

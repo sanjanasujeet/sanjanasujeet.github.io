@@ -2,6 +2,7 @@
 title: SNARL Plastics
 description: FUERTE research project with Evelyn Tsang and Andrea Estrada
 image: plastics.png
+order: 3
 ---
 
 During September 2023, FUERTE, a field-work fellowship program, took 10 fellows including me and my project team to SNARL, the Sierra Nevada Aquatic Research Laboratory. Here we met professionals, learned R, and did a lot of hikes and fieldwork that culminated in our mini projects that we presented at SNARL and later at the EEMB Undergraduate Symposium. Our project was analyzing the macro and microplastics present in the Sierra Nevada lakes that we hiked to.

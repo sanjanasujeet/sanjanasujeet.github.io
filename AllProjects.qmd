@@ -3,5 +3,5 @@ title: "All Projects"
 listing:
   contents: posts
   type: grid
+  sort: "order"
 ---
-

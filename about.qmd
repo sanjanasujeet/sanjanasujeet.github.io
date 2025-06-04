@@ -76,7 +76,6 @@ check out my travel tracking page through the navigation bar!
 <img src="media/truman.png" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
 ```
-
 I love gore, romcoms, and classics but I always go back to The Truman Show, The Grand Budapest Hotel, and Pride and Prejudice 2005.
 :::
 
@@ -89,7 +88,6 @@ My mom is an art teacher so I've grown up always doing art
 <img src="media/art.jpg" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
 ```
-
 My favorite medium is oil paint, but I also use charcoal, pen and ink, linography, watercolor, acrylic, pastel, and very beginner level pottery.
 :::
 
@@ -106,7 +104,6 @@ My favorite medium is oil paint, but I also use charcoal, pen and ink, linograph
 <img src="media/scuba.jpg" alt="My photo"
      style="width:150px; height:150px; border-radius:50%; object-fit:cover;"/>
 ```
-
 open water cert: august 2024
 
 scientific cert coming soon!

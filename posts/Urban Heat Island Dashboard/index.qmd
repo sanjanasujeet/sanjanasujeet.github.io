@@ -1,0 +1,10 @@
+---
+title: Richmond Urban Heat Island Effect Dashboard 
+description: an ArcGIS Dashboard visualizing the Urban Heat Island Effect in Richmond, Virginia made in GEOG W12
+image: urbanheatisland.png
+order: 4
+---
+
+\`\`\`{=html}
+
+[![View the StoryMap](urbanheatisland.png)](https://www.arcgis.com/apps/dashboards/096c07bf6a5a47e2b731c923f7306ded)

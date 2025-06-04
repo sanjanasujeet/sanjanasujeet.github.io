@@ -1,0 +1,10 @@
+---
+title: Cholera StoryMap
+description: an ArcGIS StoryMap visualizing John Snow's Cholera outbreak Map made in GEOG W12
+image: cholera.png
+order: 5
+---
+
+\`\`\`{=html}
+
+[![View the StoryMap](cholera.png)](https://storymaps.arcgis.com/stories/e354793e8e664e7eb14f691dafc39825)

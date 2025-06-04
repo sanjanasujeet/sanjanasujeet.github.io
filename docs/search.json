@@ -102,7 +102,7 @@
     "href": "AllProjects.html",
     "title": "All Projects",
     "section": "",
-    "text": "Green Architecture- Comparing Ancient Civilization’s Techniques to Today’s\n\n\nA literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives that ended up winning the Library Award for Undergraduate Research…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSNARL Plastics\n\n\nFUERTE research project with Evelyn Tsang and Andrea Estrada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTide and Terra Magazine\n\n\na UCSB mini magazine focused on communicating environmental topics- by students, from students\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Tide and Terra Magazine\n\n\na UCSB mini magazine focused on communicating environmental topics- by students, from students\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreen Architecture- Comparing Ancient Civilization’s Techniques to Today’s\n\n\nA literature review research paper on Ancient Sustainable Architecture Techniques and modern alternatives that ended up winning the Library Award for Undergraduate Research…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSNARL Plastics\n\n\nFUERTE research project with Evelyn Tsang and Andrea Estrada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichmond Urban Heat Island Effect Dashboard\n\n\nan ArcGIS Dashboard visualizing the Urban Heat Island Effect in Richmond, Virginia made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCholera StoryMap\n\n\nan ArcGIS StoryMap visualizing John Snow’s Cholera outbreak Map made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVolcano StoryMap\n\n\nan ArcGIS StoryMap visualizing the 2018 Kilauea Volcanic Eruption made in GEOG W12\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "AllProjects.html#snarl-microplastic-analysis",
@@ -306,5 +306,26 @@
     "title": "About Me",
     "section": "movies…",
     "text": "movies…\n\nI love gore, romcoms, and classics but I always go back to The Truman Show, The Grand Budapest Hotel, and Pride and Prejudice 2005."
+  },
+  {
+    "objectID": "posts/Volcano Storymap/index.html",
+    "href": "posts/Volcano Storymap/index.html",
+    "title": "Volcano StoryMap",
+    "section": "",
+    "text": "```{=html}\n\n\n\nView the StoryMap"
+  },
+  {
+    "objectID": "posts/Cholera Storymap/index.html",
+    "href": "posts/Cholera Storymap/index.html",
+    "title": "Volcano StoryMap",
+    "section": "",
+    "text": "```{=html}\n\n\n\nView the StoryMap"
+  },
+  {
+    "objectID": "posts/Urban Heat Island Dashboard/index.html",
+    "href": "posts/Urban Heat Island Dashboard/index.html",
+    "title": "Richmond Urban Heat Island Effect Dashboard",
+    "section": "",
+    "text": "View the StoryMap"
   }
 ]

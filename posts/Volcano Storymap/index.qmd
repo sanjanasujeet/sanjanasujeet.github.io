@@ -1,0 +1,10 @@
+---
+title: Volcano StoryMap
+description: an ArcGIS StoryMap visualizing the 2018 Kilauea Volcanic Eruption made in GEOG W12
+image: volcano.png
+order: 6
+---
+
+\`\`\`{=html}
+
+[![View the StoryMap](volcano.png)](https://storymaps.arcgis.com/stories/ad3d2d2eb93a4cb594f8df3a505d4732)

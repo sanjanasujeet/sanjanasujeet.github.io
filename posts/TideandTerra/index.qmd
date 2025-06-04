@@ -2,12 +2,15 @@
 title: Tide and Terra Magazine
 description: a UCSB mini magazine focused on communicating environmental topics- by students, from students
 image: tnt.png
+order: 1
 ---
- Tide and Terra is a passion project collaboration between me and my friend, Evelyn Tsang, that combines both our interests of science communication and environmental issues with art and creative content. 
- 
- Website coming soon...
- 
- This is a draft of our first issue that will be printed in June 2024!
+
+Tide and Terra is a passion project collaboration between me and my friend, Evelyn Tsang, that combines both our interests of science communication and environmental issues with art and creative content.
+
+Website coming soon...
+
+This is a draft of our first issue that will be printed in June 2024!
+
 ```{=html}
 <div style="text-align: center;">
   <iframe src="/posts/TideandTerra/TnT_Issue1.pdf" width="50%" height="300px" style="border: none; display: inline-block;"></iframe>
